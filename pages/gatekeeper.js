@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import InstantMessenger from "../components/chat-window.js";
 import MatrixBG from "../components/matrix.js";
 import MetaverseSelector from "../components/metaverse-selector.js";
 
@@ -38,6 +39,7 @@ export default function GateKeeper() {
       <div
           className={'matrix'}>
             <MetaverseSelector />
+            <InstantMessenger />
           </div>
           <MatrixBG selection={true} />
       </>

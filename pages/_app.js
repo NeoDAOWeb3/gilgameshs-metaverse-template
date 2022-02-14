@@ -11,8 +11,8 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <UserObjectCanvas />
-      <InstantMessenger />
-      <PlayerCard />
+      {/* <InstantMessenger /> */}
+      {/* <PlayerCard /> */}
       <Component {...pageProps} />
     </>
   )
